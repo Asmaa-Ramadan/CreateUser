@@ -1,0 +1,68 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CreateNewUser Regression Suite">
+<parameter name="Browser" value="Chrome"></parameter>
+
+  <test name="TC1_TC2">
+    <classes>
+      <class name="CreateUserTCs.CreateUserTC1_TC2"/>
+    </classes>
+  </test> 
+  
+   <test name="TC4">
+    <classes>
+      <class name="CreateUserTCs.CreateUser_TC4"/>
+    </classes>
+  </test>
+  
+  
+   <test name="TC4_Method2">
+    <classes>
+      <class name="CreateUserTCs.CreateUser_TC4_Method2"/>
+    </classes>
+  </test>
+  
+   <test name="TC4_Method3">
+    <classes>
+      <class name="CreateUserTCs.CreateUser_TC4_Method3"/>
+    </classes>
+  </test>
+  
+   <test name="TC4_Method4">
+    <classes>
+      <class name="CreateUserTCs.CreateUser_TC4_Method4"/>
+    </classes>
+  </test>
+  
+   <test name="TC5_TC6">
+    <classes>
+      <class name="CreateUserTCs.CreateUserTC5_TC6"/>
+    </classes>
+  </test>
+  
+   <test name="TC7_TC8_TC10">
+    <classes>
+      <class name="CreateUserTCs.CreateUserTC7_TC8_TC10"/>
+    </classes>
+  </test>
+ 
+ 
+  <test name="TC9">
+    <classes>
+      <class name="CreateUserTCs.CreateUserTC9"/>
+    </classes>
+  </test>
+  
+   <test name="TC12">
+    <classes>
+      <class name="CreateUserTCs.CreateUserTC12"/>
+    </classes>
+  </test>
+  
+   <test name="TC13">
+    <classes>
+      <class name="CreateUserTCs.CreateUserTC13"/>
+    </classes>
+  </test>
+  
+  
+</suite> 

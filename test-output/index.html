@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" class="navigator-link">
+              <span class="suite-name border-failed">CreateNewUser Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CreateNewUser_Regression_Suite" class="navigator-link ">
+                    <span>C:\Users\Dell\eclipse-workspace\CreateUser\Runner\CreateUser\CreateNewUser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CreateNewUser_Regression_Suite" class="navigator-link ">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CreateNewUser_Regression_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CreateNewUser_Regression_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CreateNewUser_Regression_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CreateNewUser_Regression_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CreateNewUser_Regression_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" class="hide-methods failed suite-CreateNewUser_Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-CreateNewUser_Regression_Suite -->
+                      <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" class="show-methods failed suite-CreateNewUser_Regression_Suite"> (show)</a> <!-- show-methods failed suite-CreateNewUser_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-CreateNewUser_Regression_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC12" class="method navigator-link" hash-for-method="TC12_CreateNewUser">TC12_CreateNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CreateNewUser_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" class="hide-methods passed suite-CreateNewUser_Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-CreateNewUser_Regression_Suite -->
+                      <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" class="show-methods passed suite-CreateNewUser_Regression_Suite"> (show)</a> <!-- show-methods passed suite-CreateNewUser_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-CreateNewUser_Regression_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC7_TC8_TC10" class="method navigator-link" hash-for-method="CountryCodes">CountryCodes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC5_TC6" class="method navigator-link" hash-for-method="LimitValidation_AllFields">LimitValidation_AllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC13" class="method navigator-link" hash-for-method="TC13_ResetButton">TC13_ResetButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC1_TC2" class="method navigator-link" hash-for-method="TC1_CheckCreateNewuser_Exists">TC1_CheckCreateNewuser_Exists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC1_TC2" class="method navigator-link" hash-for-method="TC2_CheckAllFields_Exisit">TC2_CheckAllFields_Exisit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC7_TC8_TC10" class="method navigator-link" hash-for-method="TC8_WrongStrings_Mail">TC8_WrongStrings_Mail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC7_TC8_TC10" class="method navigator-link" hash-for-method="TC8_WrongStrings_MobileNumber">TC8_WrongStrings_MobileNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUserTC9" class="method navigator-link" hash-for-method="TC9_CreateNewUser_WithDuplicateData">TC9_CreateNewUser_WithDuplicateData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUser_TC4" class="method navigator-link" hash-for-method="ValidaeWhenFName_Empty">ValidaeWhenFName_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUser_TC4_Method2" class="method navigator-link" hash-for-method="ValidaeWhenLName_Empty">ValidaeWhenLName_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUser_TC4_Method3" class="method navigator-link" hash-for-method="ValidaeWhenMail_Empty">ValidaeWhenMail_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CreateNewUser_Regression_Suite" title="CreateUserTCs.CreateUser_TC4_Method4" class="method navigator-link" hash-for-method="ValidaeWhenMobileNumber_Empty">ValidaeWhenMobileNumber_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CreateNewUser_Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CreateNewUser_Regression_Suite" class="panel CreateNewUser_Regression_Suite">
+          <div class="suite-CreateNewUser_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUserTC12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_CreateNewUser">
+                  </a> <!-- TC12_CreateNewUser -->
+                  <span class="method-name">TC12_CreateNewUser</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;user-details_user-details__default-icon__yqnps&quot;}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-0T81S93&apos;, ip: &apos;192.168.1.125&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Dell\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61553}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}
+Session ID: 05edfabfd7b5a83f0314114ce7b0bf29
+*** Element info: {Using=class name, value=user-details_user-details__default-icon__yqnps}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at CreateUserPageObjects.CreateUserPage.CreateNewUser_E2E(CreateUserPage.java:567)
+	at CreateUserTCs.CreateUserTC12.TC12_CreateNewUser(CreateUserTC12.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-failed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUser_TC4_Method2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidaeWhenLName_Empty">
+                  </a> <!-- ValidaeWhenLName_Empty -->
+                  <span class="method-name">ValidaeWhenLName_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUserTC7_TC8_TC10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountryCodes">
+                  </a> <!-- CountryCodes -->
+                  <span class="method-name">CountryCodes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8_WrongStrings_Mail">
+                  </a> <!-- TC8_WrongStrings_Mail -->
+                  <span class="method-name">TC8_WrongStrings_Mail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8_WrongStrings_MobileNumber">
+                  </a> <!-- TC8_WrongStrings_MobileNumber -->
+                  <span class="method-name">TC8_WrongStrings_MobileNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUserTC13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13_ResetButton">
+                  </a> <!-- TC13_ResetButton -->
+                  <span class="method-name">TC13_ResetButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUser_TC4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidaeWhenFName_Empty">
+                  </a> <!-- ValidaeWhenFName_Empty -->
+                  <span class="method-name">ValidaeWhenFName_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUser_TC4_Method3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidaeWhenMail_Empty">
+                  </a> <!-- ValidaeWhenMail_Empty -->
+                  <span class="method-name">ValidaeWhenMail_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUserTC1_TC2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1_CheckCreateNewuser_Exists">
+                  </a> <!-- TC1_CheckCreateNewuser_Exists -->
+                  <span class="method-name">TC1_CheckCreateNewuser_Exists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2_CheckAllFields_Exisit">
+                  </a> <!-- TC2_CheckAllFields_Exisit -->
+                  <span class="method-name">TC2_CheckAllFields_Exisit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUser_TC4_Method4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidaeWhenMobileNumber_Empty">
+                  </a> <!-- ValidaeWhenMobileNumber_Empty -->
+                  <span class="method-name">ValidaeWhenMobileNumber_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUserTC5_TC6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LimitValidation_AllFields">
+                  </a> <!-- LimitValidation_AllFields -->
+                  <span class="method-name">LimitValidation_AllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+          <div class="suite-CreateNewUser_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateUserTCs.CreateUserTC9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9_CreateNewUser_WithDuplicateData">
+                  </a> <!-- TC9_CreateNewUser_WithDuplicateData -->
+                  <span class="method-name">TC9_CreateNewUser_WithDuplicateData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CreateNewUser_Regression_Suite-class-passed -->
+        </div> <!-- panel CreateNewUser_Regression_Suite -->
+        <div panel-name="test-xml-CreateNewUser_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\eclipse-workspace\CreateUser\Runner\CreateUser\CreateNewUser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CreateNewUser Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC1_TC2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUserTC1_TC2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC1_TC2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUser_TC4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC4_Method2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUser_TC4_Method2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC4_Method2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC4_Method3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUser_TC4_Method3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC4_Method3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC4_Method4&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUser_TC4_Method4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC4_Method4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC5_TC6&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUserTC5_TC6&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC5_TC6 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC7_TC8_TC10&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUserTC7_TC8_TC10&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC7_TC8_TC10 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC9&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUserTC9&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC9 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC12&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUserTC12&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC12 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC13&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CreateUserTCs.CreateUserTC13&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC13 --&gt;
+&lt;/suite&gt; &lt;!-- CreateNewUser Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CreateNewUser_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CreateNewUser Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC1_TC2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC4_Method2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC4_Method3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC4_Method4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC5_TC6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC7_TC8_TC10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC9 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC12 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC13 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CreateNewUser_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CreateNewUser Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CreateNewUser_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CreateNewUser Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CreateNewUser_Regression_Suite');
+function tableData_CreateNewUser_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC12_CreateNewUser')
+data.setCell(0, 2, 'CreateUserTCs.CreateUserTC12')
+data.setCell(0, 3, 10923);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidaeWhenLName_Empty')
+data.setCell(1, 2, 'CreateUserTCs.CreateUser_TC4_Method2')
+data.setCell(1, 3, 6943);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidaeWhenMobileNumber_Empty')
+data.setCell(2, 2, 'CreateUserTCs.CreateUser_TC4_Method4')
+data.setCell(2, 3, 5149);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CountryCodes')
+data.setCell(3, 2, 'CreateUserTCs.CreateUserTC7_TC8_TC10')
+data.setCell(3, 3, 4777);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC13_ResetButton')
+data.setCell(4, 2, 'CreateUserTCs.CreateUserTC13')
+data.setCell(4, 3, 4578);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC9_CreateNewUser_WithDuplicateData')
+data.setCell(5, 2, 'CreateUserTCs.CreateUserTC9')
+data.setCell(5, 3, 3648);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC8_WrongStrings_MobileNumber')
+data.setCell(6, 2, 'CreateUserTCs.CreateUserTC7_TC8_TC10')
+data.setCell(6, 3, 2329);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC8_WrongStrings_Mail')
+data.setCell(7, 2, 'CreateUserTCs.CreateUserTC7_TC8_TC10')
+data.setCell(7, 3, 2326);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidaeWhenMail_Empty')
+data.setCell(8, 2, 'CreateUserTCs.CreateUser_TC4_Method3')
+data.setCell(8, 3, 1214);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ValidaeWhenFName_Empty')
+data.setCell(9, 2, 'CreateUserTCs.CreateUser_TC4')
+data.setCell(9, 3, 844);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LimitValidation_AllFields')
+data.setCell(10, 2, 'CreateUserTCs.CreateUserTC5_TC6')
+data.setCell(10, 3, 834);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC2_CheckAllFields_Exisit')
+data.setCell(11, 2, 'CreateUserTCs.CreateUserTC1_TC2')
+data.setCell(11, 3, 388);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC1_CheckCreateNewuser_Exists')
+data.setCell(12, 2, 'CreateUserTCs.CreateUserTC1_TC2')
+data.setCell(12, 3, 84);
+window.suiteTableData['CreateNewUser_Regression_Suite']= { tableData: data, tableDiv: 'times-div-CreateNewUser_Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-CreateNewUser_Regression_Suite">
+              </div> <!-- times-div-CreateNewUser_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CreateNewUser_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CreateNewUser Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CreateNewUser_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CreateNewUser_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUserTC1_TC2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC1_CheckCreateNewuser_Exists</span>
+                <span class="method-start">14654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=TC1_CheckCreateNewuser_Exists status=SUCCESS method=CreateUserTC1_TC2.TC1_CheckCrea...)</span>
+                <span class="method-start">14740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC2_CheckAllFields_Exisit</span>
+                <span class="method-start">14745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=TC2_CheckAllFields_Exisit status=SUCCESS method=CreateUserTC1_TC2.TC2_CheckAllField...)</span>
+                <span class="method-start">15134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">15135 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUser_TC4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">19590 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidaeWhenFName_Empty</span>
+                <span class="method-start">32970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=ValidaeWhenFName_Empty status=SUCCESS method=CreateUser_TC4.ValidaeWhenFName_Empty(...)</span>
+                <span class="method-start">33816 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">33817 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUser_TC4_Method2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">34082 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidaeWhenLName_Empty</span>
+                <span class="method-start">47262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=ValidaeWhenLName_Empty status=SUCCESS method=CreateUser_TC4_Method2.ValidaeWhenLNam...)</span>
+                <span class="method-start">54206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">54207 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUser_TC4_Method3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">54398 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidaeWhenMail_Empty</span>
+                <span class="method-start">67148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=ValidaeWhenMail_Empty status=SUCCESS method=CreateUser_TC4_Method3.ValidaeWhenMail_...)</span>
+                <span class="method-start">68363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">68363 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUser_TC4_Method4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">68584 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidaeWhenMobileNumber_Empty</span>
+                <span class="method-start">79708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=ValidaeWhenMobileNumber_Empty status=SUCCESS method=CreateUser_TC4_Method4.ValidaeW...)</span>
+                <span class="method-start">84858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">84859 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUserTC5_TC6</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">85100 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LimitValidation_AllFields</span>
+                <span class="method-start">99280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=LimitValidation_AllFields status=SUCCESS method=CreateUserTC5_TC6.LimitValidation_A...)</span>
+                <span class="method-start">100115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">100115 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUserTC7_TC8_TC10</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">100293 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">CountryCodes</span>
+                <span class="method-start">113172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=CountryCodes status=SUCCESS method=CreateUserTC7_TC8_TC10.CountryCodes()[pri:1, ins...)</span>
+                <span class="method-start">117951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC8_WrongStrings_Mail</span>
+                <span class="method-start">117952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=TC8_WrongStrings_Mail status=SUCCESS method=CreateUserTC7_TC8_TC10.TC8_WrongStrings...)</span>
+                <span class="method-start">120279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC8_WrongStrings_MobileNumber</span>
+                <span class="method-start">120280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=TC8_WrongStrings_MobileNumber status=SUCCESS method=CreateUserTC7_TC8_TC10.TC8_Wron...)</span>
+                <span class="method-start">122610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">122610 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUserTC9</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">122804 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC9_CreateNewUser_WithDuplicateData</span>
+                <span class="method-start">134867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=TC9_CreateNewUser_WithDuplicateData status=SUCCESS method=CreateUserTC9.TC9_CreateN...)</span>
+                <span class="method-start">138516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">138517 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUserTC12</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">138711 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC12_CreateNewUser</span>
+                <span class="method-start">152855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=TC12_CreateNewUser status=FAILURE method=CreateUserTC12.TC12_CreateNewUser()[pri:0,...)</span>
+                <span class="method-start">163781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">164194 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CreateUserTCs.CreateUserTC13</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">StartDriver(Chrome)</span>
+                <span class="method-start">164428 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC13_ResetButton</span>
+                <span class="method-start">179370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenShotOnFaluire([TestResult name=TC13_ResetButton status=SUCCESS method=CreateUserTC13.TC13_ResetButton()[pri:0, ins...)</span>
+                <span class="method-start">183948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CLoseDriver</span>
+                <span class="method-start">183949 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

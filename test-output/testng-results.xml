@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-29T17:07:40 EET" name="CreateNewUser Regression Suite" finished-at="2020-10-29T17:10:45 EET" duration-ms="184155">
+    <groups>
+    </groups>
+    <test started-at="2020-10-29T17:07:40 EET" name="TC1_TC2" finished-at="2020-10-29T17:08:00 EET" duration-ms="19520">
+      <class name="CreateUserTCs.CreateUserTC1_TC2">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47]" started-at="2020-10-29T17:07:40 EET" name="StartDriver" finished-at="2020-10-29T17:07:55 EET" duration-ms="14633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="TC1_CheckCreateNewuser_Exists()[pri:1, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47]" started-at="2020-10-29T17:07:55 EET" name="TC1_CheckCreateNewuser_Exists" finished-at="2020-10-29T17:07:55 EET" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_CheckCreateNewuser_Exists -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47]" started-at="2020-10-29T17:07:55 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:07:55 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1_CheckCreateNewuser_Exists status=SUCCESS method=CreateUserTC1_TC2.TC1_CheckCreateNewuser_Exists()[pri:1, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method signature="TC2_CheckAllFields_Exisit()[pri:2, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47]" started-at="2020-10-29T17:07:55 EET" name="TC2_CheckAllFields_Exisit" finished-at="2020-10-29T17:07:56 EET" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_CheckAllFields_Exisit -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47]" started-at="2020-10-29T17:07:56 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:07:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC2_CheckAllFields_Exisit status=SUCCESS method=CreateUserTC1_TC2.TC2_CheckAllFields_Exisit()[pri:2, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUserTC1_TC2@48fa0f47]" started-at="2020-10-29T17:07:56 EET" name="CLoseDriver" finished-at="2020-10-29T17:08:00 EET" duration-ms="4337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUserTC1_TC2 -->
+    </test> <!-- TC1_TC2 -->
+    <test started-at="2020-10-29T17:08:00 EET" name="TC4" finished-at="2020-10-29T17:08:14 EET" duration-ms="14478">
+      <class name="CreateUserTCs.CreateUser_TC4">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUser_TC4@36c88a32]" started-at="2020-10-29T17:08:00 EET" name="StartDriver" finished-at="2020-10-29T17:08:13 EET" duration-ms="13380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="ValidaeWhenFName_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4@36c88a32]" started-at="2020-10-29T17:08:13 EET" name="ValidaeWhenFName_Empty" finished-at="2020-10-29T17:08:14 EET" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidaeWhenFName_Empty -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUser_TC4@36c88a32]" started-at="2020-10-29T17:08:14 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:08:14 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidaeWhenFName_Empty status=SUCCESS method=CreateUser_TC4.ValidaeWhenFName_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4@36c88a32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUser_TC4@36c88a32]" started-at="2020-10-29T17:08:14 EET" name="CLoseDriver" finished-at="2020-10-29T17:08:14 EET" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUser_TC4 -->
+    </test> <!-- TC4 -->
+    <test started-at="2020-10-29T17:08:14 EET" name="TC4_Method2" finished-at="2020-10-29T17:08:35 EET" duration-ms="20299">
+      <class name="CreateUserTCs.CreateUser_TC4_Method2">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method2@bef2d72]" started-at="2020-10-29T17:08:14 EET" name="StartDriver" finished-at="2020-10-29T17:08:28 EET" duration-ms="13179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="ValidaeWhenLName_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4_Method2@bef2d72]" started-at="2020-10-29T17:08:28 EET" name="ValidaeWhenLName_Empty" finished-at="2020-10-29T17:08:35 EET" duration-ms="6943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidaeWhenLName_Empty -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method2@bef2d72]" started-at="2020-10-29T17:08:35 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:08:35 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidaeWhenLName_Empty status=SUCCESS method=CreateUser_TC4_Method2.ValidaeWhenLName_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4_Method2@bef2d72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method2@bef2d72]" started-at="2020-10-29T17:08:35 EET" name="CLoseDriver" finished-at="2020-10-29T17:08:35 EET" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUser_TC4_Method2 -->
+    </test> <!-- TC4_Method2 -->
+    <test started-at="2020-10-29T17:08:35 EET" name="TC4_Method3" finished-at="2020-10-29T17:08:49 EET" duration-ms="14170">
+      <class name="CreateUserTCs.CreateUser_TC4_Method3">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method3@49b0b76]" started-at="2020-10-29T17:08:35 EET" name="StartDriver" finished-at="2020-10-29T17:08:48 EET" duration-ms="12750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="ValidaeWhenMail_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4_Method3@49b0b76]" started-at="2020-10-29T17:08:48 EET" name="ValidaeWhenMail_Empty" finished-at="2020-10-29T17:08:49 EET" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidaeWhenMail_Empty -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method3@49b0b76]" started-at="2020-10-29T17:08:49 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:08:49 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidaeWhenMail_Empty status=SUCCESS method=CreateUser_TC4_Method3.ValidaeWhenMail_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4_Method3@49b0b76] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method3@49b0b76]" started-at="2020-10-29T17:08:49 EET" name="CLoseDriver" finished-at="2020-10-29T17:08:49 EET" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUser_TC4_Method3 -->
+    </test> <!-- TC4_Method3 -->
+    <test started-at="2020-10-29T17:08:49 EET" name="TC4_Method4" finished-at="2020-10-29T17:09:05 EET" duration-ms="16514">
+      <class name="CreateUserTCs.CreateUser_TC4_Method4">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method4@3d680b5a]" started-at="2020-10-29T17:08:49 EET" name="StartDriver" finished-at="2020-10-29T17:09:00 EET" duration-ms="11123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="ValidaeWhenMobileNumber_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4_Method4@3d680b5a]" started-at="2020-10-29T17:09:00 EET" name="ValidaeWhenMobileNumber_Empty" finished-at="2020-10-29T17:09:05 EET" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidaeWhenMobileNumber_Empty -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method4@3d680b5a]" started-at="2020-10-29T17:09:05 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:09:05 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidaeWhenMobileNumber_Empty status=SUCCESS method=CreateUser_TC4_Method4.ValidaeWhenMobileNumber_Empty()[pri:1, instance:CreateUserTCs.CreateUser_TC4_Method4@3d680b5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUser_TC4_Method4@3d680b5a]" started-at="2020-10-29T17:09:05 EET" name="CLoseDriver" finished-at="2020-10-29T17:09:05 EET" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUser_TC4_Method4 -->
+    </test> <!-- TC4_Method4 -->
+    <test started-at="2020-10-29T17:09:06 EET" name="TC5_TC6" finished-at="2020-10-29T17:09:21 EET" duration-ms="15183">
+      <class name="CreateUserTCs.CreateUserTC5_TC6">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUserTC5_TC6@470f1802]" started-at="2020-10-29T17:09:06 EET" name="StartDriver" finished-at="2020-10-29T17:09:20 EET" duration-ms="14179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="LimitValidation_AllFields()[pri:0, instance:CreateUserTCs.CreateUserTC5_TC6@470f1802]" started-at="2020-10-29T17:09:20 EET" name="LimitValidation_AllFields" finished-at="2020-10-29T17:09:21 EET" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LimitValidation_AllFields -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUserTC5_TC6@470f1802]" started-at="2020-10-29T17:09:21 EET" name="CLoseDriver" finished-at="2020-10-29T17:09:21 EET" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC5_TC6@470f1802]" started-at="2020-10-29T17:09:21 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:09:21 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LimitValidation_AllFields status=SUCCESS method=CreateUserTC5_TC6.LimitValidation_AllFields()[pri:0, instance:CreateUserTCs.CreateUserTC5_TC6@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+      </class> <!-- CreateUserTCs.CreateUserTC5_TC6 -->
+    </test> <!-- TC5_TC6 -->
+    <test started-at="2020-10-29T17:09:21 EET" name="TC7_TC8_TC10" finished-at="2020-10-29T17:09:43 EET" duration-ms="22504">
+      <class name="CreateUserTCs.CreateUserTC7_TC8_TC10">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:21 EET" name="StartDriver" finished-at="2020-10-29T17:09:34 EET" duration-ms="12878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="CountryCodes()[pri:1, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:34 EET" name="CountryCodes" finished-at="2020-10-29T17:09:38 EET" duration-ms="4777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountryCodes -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:38 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:09:38 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CountryCodes status=SUCCESS method=CreateUserTC7_TC8_TC10.CountryCodes()[pri:1, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method signature="TC8_WrongStrings_Mail()[pri:2, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:38 EET" name="TC8_WrongStrings_Mail" finished-at="2020-10-29T17:09:41 EET" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8_WrongStrings_Mail -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:41 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:09:41 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC8_WrongStrings_Mail status=SUCCESS method=CreateUserTC7_TC8_TC10.TC8_WrongStrings_Mail()[pri:2, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method signature="TC8_WrongStrings_MobileNumber()[pri:3, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:41 EET" name="TC8_WrongStrings_MobileNumber" finished-at="2020-10-29T17:09:43 EET" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8_WrongStrings_MobileNumber -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:43 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:09:43 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC8_WrongStrings_MobileNumber status=SUCCESS method=CreateUserTC7_TC8_TC10.TC8_WrongStrings_MobileNumber()[pri:3, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUserTC7_TC8_TC10@4b0b0854]" started-at="2020-10-29T17:09:43 EET" name="CLoseDriver" finished-at="2020-10-29T17:09:43 EET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUserTC7_TC8_TC10 -->
+    </test> <!-- TC7_TC8_TC10 -->
+    <test started-at="2020-10-29T17:09:43 EET" name="TC9" finished-at="2020-10-29T17:09:59 EET" duration-ms="15900">
+      <class name="CreateUserTCs.CreateUserTC9">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUserTC9@64cd705f]" started-at="2020-10-29T17:09:43 EET" name="StartDriver" finished-at="2020-10-29T17:09:55 EET" duration-ms="12062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="TC9_CreateNewUser_WithDuplicateData()[pri:0, instance:CreateUserTCs.CreateUserTC9@64cd705f]" started-at="2020-10-29T17:09:55 EET" name="TC9_CreateNewUser_WithDuplicateData" finished-at="2020-10-29T17:09:59 EET" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_CreateNewUser_WithDuplicateData -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC9@64cd705f]" started-at="2020-10-29T17:09:59 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:09:59 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC9_CreateNewUser_WithDuplicateData status=SUCCESS method=CreateUserTC9.TC9_CreateNewUser_WithDuplicateData()[pri:0, instance:CreateUserTCs.CreateUserTC9@64cd705f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUserTC9@64cd705f]" started-at="2020-10-29T17:09:59 EET" name="CLoseDriver" finished-at="2020-10-29T17:09:59 EET" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUserTC9 -->
+    </test> <!-- TC9 -->
+    <test started-at="2020-10-29T17:09:59 EET" name="TC12" finished-at="2020-10-29T17:10:25 EET" duration-ms="25672">
+      <class name="CreateUserTCs.CreateUserTC12">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUserTC12@48ae9b55]" started-at="2020-10-29T17:09:59 EET" name="StartDriver" finished-at="2020-10-29T17:10:13 EET" duration-ms="14143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="TC12_CreateNewUser()[pri:0, instance:CreateUserTCs.CreateUserTC12@48ae9b55]" started-at="2020-10-29T17:10:13 EET" name="TC12_CreateNewUser" finished-at="2020-10-29T17:10:24 EET" duration-ms="10923" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"user-details_user-details__default-icon__yqnps"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-0T81S93', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Dell\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61553}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}
+Session ID: 05edfabfd7b5a83f0314114ce7b0bf29
+*** Element info: {Using=class name, value=user-details_user-details__default-icon__yqnps}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"user-details_user-details__default-icon__yqnps"}
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-0T81S93', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Dell\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61553}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.111, webStorageEnabled: true}
+Session ID: 05edfabfd7b5a83f0314114ce7b0bf29
+*** Element info: {Using=class name, value=user-details_user-details__default-icon__yqnps}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+at CreateUserPageObjects.CreateUserPage.CreateNewUser_E2E(CreateUserPage.java:567)
+at CreateUserTCs.CreateUserTC12.TC12_CreateNewUser(CreateUserTC12.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_CreateNewUser -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC12@48ae9b55]" started-at="2020-10-29T17:10:24 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:10:25 EET" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC12_CreateNewUser status=FAILURE method=CreateUserTC12.TC12_CreateNewUser()[pri:0, instance:CreateUserTCs.CreateUserTC12@48ae9b55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUserTC12@48ae9b55]" started-at="2020-10-29T17:10:25 EET" name="CLoseDriver" finished-at="2020-10-29T17:10:25 EET" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUserTC12 -->
+    </test> <!-- TC12 -->
+    <test started-at="2020-10-29T17:10:25 EET" name="TC13" finished-at="2020-10-29T17:10:45 EET" duration-ms="19680">
+      <class name="CreateUserTCs.CreateUserTC13">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:CreateUserTCs.CreateUserTC13@1139b2f3]" started-at="2020-10-29T17:10:25 EET" name="StartDriver" finished-at="2020-10-29T17:10:40 EET" duration-ms="14941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="TC13_ResetButton()[pri:0, instance:CreateUserTCs.CreateUserTC13@1139b2f3]" started-at="2020-10-29T17:10:40 EET" name="TC13_ResetButton" finished-at="2020-10-29T17:10:44 EET" duration-ms="4578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_ResetButton -->
+        <test-method is-config="true" signature="ScreenShotOnFaluire(org.testng.ITestResult)[pri:0, instance:CreateUserTCs.CreateUserTC13@1139b2f3]" started-at="2020-10-29T17:10:44 EET" name="ScreenShotOnFaluire" finished-at="2020-10-29T17:10:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC13_ResetButton status=SUCCESS method=CreateUserTC13.TC13_ResetButton()[pri:0, instance:CreateUserTCs.CreateUserTC13@1139b2f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShotOnFaluire -->
+        <test-method is-config="true" signature="CLoseDriver()[pri:0, instance:CreateUserTCs.CreateUserTC13@1139b2f3]" started-at="2020-10-29T17:10:44 EET" name="CLoseDriver" finished-at="2020-10-29T17:10:45 EET" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLoseDriver -->
+      </class> <!-- CreateUserTCs.CreateUserTC13 -->
+    </test> <!-- TC13 -->
+  </suite> <!-- CreateNewUser Regression Suite -->
+</testng-results>
